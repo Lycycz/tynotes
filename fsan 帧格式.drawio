@@ -1,9 +1,72 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.0.14">
   <diagram name="第 1 页" id="9hqAN24vCpYmE-tgtYeU">
-    <mxGraphModel>
+    <mxGraphModel dx="951" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Itf3ZQhUJko3VTEImY_m-1" value="fsan帧头" style="rounded=0;whiteSpace=wrap;html=1;flipV=0;flipH=1;comic=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="103" y="240" width="111" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Itf3ZQhUJko3VTEImY_m-3" value="帧数据" style="rounded=0;whiteSpace=wrap;html=1;flipV=0;flipH=1;comic=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="214" y="240" width="390" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Itf3ZQhUJko3VTEImY_m-4" value="vkek" style="rounded=0;whiteSpace=wrap;html=1;flipV=0;flipH=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="604" y="240" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Itf3ZQhUJko3VTEImY_m-5" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="310" as="sourcePoint" />
+            <mxPoint x="130" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Itf3ZQhUJko3VTEImY_m-7" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="310" as="sourcePoint" />
+            <mxPoint x="180" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Itf3ZQhUJko3VTEImY_m-9" value="帧同步头" style="rounded=0;whiteSpace=wrap;html=1;flipV=0;flipH=1;comic=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="30" y="320" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Itf3ZQhUJko3VTEImY_m-10" value="帧类型" style="rounded=0;whiteSpace=wrap;html=1;flipV=0;flipH=1;comic=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="90" y="320" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Itf3ZQhUJko3VTEImY_m-11" value="帧号" style="rounded=0;whiteSpace=wrap;html=1;flipV=0;flipH=1;comic=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="150" y="320" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Itf3ZQhUJko3VTEImY_m-12" value="绝对时间戳" style="rounded=0;whiteSpace=wrap;html=1;flipV=0;flipH=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="210" y="320" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Itf3ZQhUJko3VTEImY_m-13" value="帧载长度" style="rounded=0;whiteSpace=wrap;html=1;flipV=0;flipH=1;comic=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="270" y="320" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Itf3ZQhUJko3VTEImY_m-14" value="媒体信息" style="rounded=0;whiteSpace=wrap;html=1;flipV=0;flipH=1;comic=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="370" y="320" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Itf3ZQhUJko3VTEImY_m-15" value="相对时间戳" style="rounded=0;whiteSpace=wrap;html=1;flipV=0;flipH=1;comic=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="510" y="320" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Itf3ZQhUJko3VTEImY_m-16" value="4字节" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="35" y="338" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Itf3ZQhUJko3VTEImY_m-17" value="4字节" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="95" y="340" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Itf3ZQhUJko3VTEImY_m-18" value="4字节" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="155" y="338" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Itf3ZQhUJko3VTEImY_m-19" value="8字节" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="215" y="340" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Itf3ZQhUJko3VTEImY_m-20" value="4字节" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="295" y="338" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Itf3ZQhUJko3VTEImY_m-21" value="4字节" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="515" y="340" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Itf3ZQhUJko3VTEImY_m-26" value="0x00, 0x00, 0x01, 0xAB" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="360" width="80" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
